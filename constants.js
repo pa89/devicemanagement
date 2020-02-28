@@ -1,0 +1,23 @@
+module.exports = Object.freeze({
+PROVISIONING_HOST: 'global.azure-devices-provisioning.net',
+ID_SCOPE:'0ne0005343E',
+REGISTRATION_ID:'02122020device',
+DEVICE_KEY:'//home//administrator//Desktop//certificates//02122020device.key',
+DEVICE_CER:'//home//administrator//Desktop//certificates//02122020device.cer',
+IndividualCertificate_Path:'//home//administrator//Desktop//certificates//12122019.cer',
+Device_ID:'fileuploadtestdevice2',
+DPS_ConnectionString:'HostName=smartwellDPS.azure-devices-provisioning.net;SharedAccessKeyName=provisioningserviceowner;SharedAccessKey=H+9W9snVHhzirspc4GXXF9utis77Z2byuoXncwMwce4=',
+PORT:'3002',
+RootCertificate:'//home//administrator//Desktop//certificates//root02012020.cer',
+filename:'mydevice.txt',
+Device_ConnectionString:'HostName=smartwellIotHub.azure-devices.net;DeviceId=31122019;SharedAccessKey=QKHQVIHAXoMgbHhTLcT1np0SjA4f715dZpfmAY4oFe0=',
+Device_Id:'12122019',
+IOT_Hub_ConnectionString:'HostName=smartwellIotHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=Rb8eHApPoPiqRyk98D/fx/gEcpz8p7Y/u+z3aRBh6kw=',
+AccountName:'smartwelldevsan',
+AccountKey:'TkImz7bKiW112NFvWC2dv85RWwbRc8WJQl/gtdbVP9vo5cSfLBaAzPf+/htjk6mExu98L7uLY1+/1ePXSDstgQ==',
+BlobURL:'https://smartwelldevsan.blob.core.windows.net/smartwell-device-offlinedata-sync',
+ContainerName:'smartwell-device-offlinedata-sync',
+EnrollmentGroupId:'testgroupenrolment',
+Filepath:'//home//administrator//Desktop//',
+Fileextension:'.txt'
+});
